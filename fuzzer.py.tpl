@@ -19,7 +19,7 @@
 #   1) connect
 #   2) send command
 #   3) receive
-#   4) fuzz intil crashed
+#   4) fuzz until crashed
 #   5) close connection
 #
 # imports
