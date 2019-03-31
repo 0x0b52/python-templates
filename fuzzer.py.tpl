@@ -56,6 +56,10 @@ def fizz():
       sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # TCP
       # sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
       print("[*] Connecting..")
-      sock.connect(())
-      pass
-    
+      sock.connect((target,port))
+      data = sock.recv(1024).decode()
+      if(len(data) > 0):
+        print("[o] Received: " + data)
+        
+      # HERE FUZZING STARTS &#x1f618;
+      
