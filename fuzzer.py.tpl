@@ -3,7 +3,7 @@
 #
 # <short_description>
 #
-# target: <[software|IP|port|]>
+# target: <[software|IP|port|OS]>
 #
 # <target_description>
 #
